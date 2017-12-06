@@ -85,6 +85,7 @@ void *handleMessage(void* v){
     char *newline = "\n";
     struct stat st;
 
+.
     valread = read( local_socket , buffer, 1024);
     printf("Text file: %s\n",buffer );
     string line;
